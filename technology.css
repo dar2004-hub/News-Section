@@ -1,0 +1,92 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    animation: slide-in 2s ease-in-out, fade-in 2s ease-in-out;
+}
+
+/* Keyframes for sliding in from the left */
+@keyframes slide-in {
+    from {
+        transform: translateX(-10%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Keyframes for fading in */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Navigation Bar */
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 100px;
+    padding: 5px 80px;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+section {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p, li {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Blockquote Styling */
+blockquote {
+    margin: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #ddd;
+    font-style: italic;
+    color: #555;
+}
