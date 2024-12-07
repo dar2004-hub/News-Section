@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #cfb6b6;
+    flex-wrap: wrap;
 }
 
 header {
