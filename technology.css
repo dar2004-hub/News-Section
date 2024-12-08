@@ -55,13 +55,13 @@ nav a {
     color: white;
     text-decoration: none;
     margin: 0px;
-    padding: 10px 5px;
+    padding: 5px 15px;
 
 }
 
 nav a:hover {
     background-color: #555;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 /* Section Styling */
