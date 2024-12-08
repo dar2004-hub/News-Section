@@ -171,6 +171,11 @@ nav a:hover {
     border-color: #145a9e;
 }
 
+h3 {
+    margin-left: 100px;
+
+}
+
 /* Footer */
 footer {
     background-color: #333;
