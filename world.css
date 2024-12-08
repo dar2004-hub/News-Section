@@ -51,8 +51,8 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 150px;
-    padding: 5px 100px;
+    margin: 0px;
+    padding: 5px 10px;
 }
 
 nav a:hover {
