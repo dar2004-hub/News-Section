@@ -45,13 +45,13 @@ nav {
     display: flex;
     justify-content: center;
     background-color: #444;
-    padding: 10px 0;
+    padding: 0px 0;
 }
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
-    padding: 5px 10px;
+    margin:  0px;
+    padding: 2px 5px;
 }
 nav a:hover {
     background-color: #555;
